@@ -13,3 +13,15 @@
 .menu__link:hover {
     text-decoration: underline; 
 }
+
+@media screen and (min-width:0px){
+    .menu__link--quem-somos{
+        margin-right: .5em;
+    }
+}
+
+@media screen and (min-width:345px){
+    .menu__link--quem-somos{
+        margin-right: 1.25rem;
+    }
+}
